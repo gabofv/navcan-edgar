@@ -1,5 +1,5 @@
 # navcan-edgar
-NavCan, a km countdown device with a beeper that can be connected to any car that exposes an OBD2 port. Used to indicate when the driver should take their next detour after setting the km count via the rotary encoder.
+NavCan, a km countdown device with a beeper that can be connected to any car that exposes an OBD2 port. Used to indicate when the driver should take their next detour after setting the km count via the rotary encoder. Customer: a friend.
 ## Hardware \[Description, DigiKey Part #, Manufacturer\]
 ### MCU
 - STM32L432KCU6 | 497-16578-ND | STMicroelectronics
