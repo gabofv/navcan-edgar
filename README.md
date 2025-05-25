@@ -50,7 +50,7 @@ Since the piezo buzzer used has an operating voltage of 3 ~ 16V, I tried three d
 
 <img src="https://github.com/user-attachments/assets/348db6f6-cc48-43f3-89b8-f1590151e904"  width=300 /> &nbsp;
 
-See Figure XXXX in the Appendix for the circuit used to test for 5V and 12V, which used the pin signal to control a BJT (NPN transistor), which acted as a switch.
+See Figure XXXX in the Appendix for the circuit used to test for 5V and 12V, which used the pin signal and a 1kΩ resistor to control a BJT (NPN transistor), which acted as a switch.
 
 ### iii. PCB Design
 tbd
