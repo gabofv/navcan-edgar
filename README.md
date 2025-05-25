@@ -1,6 +1,20 @@
 # navcan-edgar
 NavCan, a km countdown device with a beeper that can be connected to any car that exposes an OBD2 port. Used to indicate when the driver should take their next detour after setting the km count via the rotary encoder. Customer: a friend.
-## Hardware \[Description, DigiKey Part #, Manufacturer\]
+
+## Table of Contents
+
+1. Hardware / Components
+2. Software
+3. Methodology
+    1. Design
+    2. Prototyping
+    3. PCB Design
+    4. Manufacture
+4. Design Choices
+5. Conclusion
+
+## 1. Hardware / Components 
+Note: format is "Description | DigiKey Part # | Manufacturer"
 ### MCU
 - STM32L432KCU6 | 497-16578-ND | STMicroelectronics
 ### 7-Segment Display
@@ -14,7 +28,7 @@ NavCan, a km countdown device with a beeper that can be connected to any car tha
 ### Adapters
 - QSOP-16 to DIP-16 | PA0028-ND | Chip Quik Inc.
 - UMAX-8/USOP-8/MSOP-8 to DIP-8 | PA0026-ND | Chip Quik Inc.
-## Software
+## 2. Software
 - IDE: STM32CubeIDE
 - Programming Language: C
 - CAD: EasyEDA
