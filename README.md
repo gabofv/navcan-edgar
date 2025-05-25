@@ -31,4 +31,4 @@ Note: format is "Description | DigiKey Part # | Manufacturer"
 ## 2. Software
 - IDE: STM32CubeIDE
 - Programming Language: C
-- CAD: EasyEDA
+- CAD: Altium Designer
