@@ -1,0 +1,17 @@
+# Ignore build artifacts and temp files
+/Debug/
+/Release/
+/build/
+*.elf
+*.bin
+*.map
+*.o
+*.d
+*.su
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
