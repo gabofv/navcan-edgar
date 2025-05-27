@@ -23,7 +23,6 @@ NavCan, a km countdown device with a beeper that can be connected to any car tha
 - IC Driver 7-Seg 4-Digit QSOP-16 | MAX6958AAEE+-ND | Analog Devices Inc./Maxim Integrated
 ### Rotary Encoder
 - Rotary Encoder Mechanical (Active) | PEC11R-4215K-S0024-ND | Bourns Inc.
-- IC Schmitt Trigger US8 (Non-Inv) | NC7NZ17K8XCT-ND | onsemi
 ### Buzzer
 - Buzzer Piezo 12V | 433-1065-ND | Soberton Inc.
 ### Adapters (Prototyping)
