@@ -15,7 +15,7 @@ NavCan, a km countdown device with a beeper that can be connected to any car tha
 6. Appendix
 
 ## 1. Hardware / Components 
-<ins>Note:</ins> format is "Description | DigiKey Part # | Manufacturer"
+<ins>Note:</ins> format is "Description | DigiKey Part # | Manufacturer | \[Qty\]"
 ### MCU
 - STM32L432KCU6 | 497-16578-ND | STMicroelectronics
 ### 7-Segment Display
@@ -30,6 +30,8 @@ NavCan, a km countdown device with a beeper that can be connected to any car tha
 - UMAX-8/USOP-8/MSOP-8 to DIP-8 | PA0026-ND | Chip Quik Inc.
 ### Other
 - Resistor (1kΩ, ±5%) | - | -
+- Resistor (10kΩ, ±5%) | - | - | 4
+- Capacitor (0.01 uF) | - | - | 2
 - NPN Transistor (40V) | 2N4401 | -
 
 ## 2. Software
