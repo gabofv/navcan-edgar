@@ -35,7 +35,7 @@ NavCan, a km countdown device with a beeper that can be connected to any car tha
 ## 2. Software
 - IDE: STM32CubeIDE
 - Programming Language: C
-- CAD: Altium Designer
+- CAD: EasyEDA
 
 ## 3. Methodology
 
