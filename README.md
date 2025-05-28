@@ -53,6 +53,13 @@ Since the piezo buzzer used has an operating voltage of 3 ~ 16V, I tried three d
 
 See Figure XXXX in the Appendix for the circuit used to test for 5V and 12V, which used the pin signal and a 1kΩ resistor to control a BJT (NPN transistor), which acted as a switch.
 
+#### Rotary Encoder + Switch
+Since the encoder comes with a built-in push-button (switch), this section is divided in two parts.
+For both features, an RC low-pass filter and an on-chip Schmitt trigger are used to smooth out contact bounces and to provide clean thresholds through hysteresis.
+##### Rotary Encoder
+
+##### Switch
+
 ### iii. PCB Design
 tbd
 
