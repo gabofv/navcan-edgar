@@ -7,21 +7,31 @@
  */
 
 #include <stdio.h>
-#include "buzzer.h"
+
+#include "led.h"
+#include "rotary.h"
 #include "systick.h"
 
 
 int main(void) {
+	uint8_t btn;
 
-	buzzer_init();
+	led_init();
+	rsw_init();
 
 	while(1) {
-		buzzer_on();
-		systick_ms_delay(500);
-		buzzer_off();
-		systick_ms_delay(500);
-	}
 
+		btn = rsw_rd();
+
+		if (btn)  {
+			led_on();
+		}
+		else {
+			led_off();
+		}
+
+		systick_ms_delay(10);
+	}
 
 	return 0;
 }
