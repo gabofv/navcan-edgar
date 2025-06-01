@@ -17,3 +17,8 @@ void rsw_init(void) {
 	GPIOA->PUPDR |= PUPDR4_0;
 	GPIOA->PUPDR &= ~PUPDR4_1;
 }
+
+uint8_t rsw_rd(void) {
+	return (GPIOA->IDR & (1U << 4)) >> 4;
+}
+
