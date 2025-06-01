@@ -11,9 +11,11 @@ void rsw_init(void) {
 	 /* Should also include init for pin A, B */
 	RCC->AHB2ENR |= GPIOAEN;
 
+	/* Set pin to input mode */
 	GPIOA->MODER &= ~MODER4_0;
 	GPIOA->MODER &= ~MODER4_1;
 
+	/* Set pin to weak pull-up mode */
 	GPIOA->PUPDR |= PUPDR4_0;
 	GPIOA->PUPDR &= ~PUPDR4_1;
 }
