@@ -5,4 +5,5 @@
  *      Author: gabri
  */
 
+#include "rotary.h"
 
