@@ -7,3 +7,13 @@
 
 #include "rotary.h"
 
+void rsw_init(void) {
+	 /* Should also include init for pin A, B */
+	RCC->AHB2ENR |= GPIOAEN;
+
+	GPIOA->MODER &= ~MODER4_0;
+	GPIOA->MODER &= ~MODER4_1;
+
+	GPIOA->PUPDR |= PUPDR4_0;
+	GPIOA->PUPDR &= ~PUPDR4_1;
+}
