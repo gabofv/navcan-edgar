@@ -1,6 +1,10 @@
 # navcan-edgar
 NavCan, a km countdown device with a beeper that can be connected to any car that exposes an OBD2 port. Used to indicate when the driver should take their next detour after setting the km count via the rotary encoder.
 
+## Notes
+
+- Code restructuring will be the final stage of the project. Given the simplicity of the project, I am focusing more on implementation and functionality rather than application scalability (object-oriented design).
+
 ## Table of Contents
 
 1. Hardware / Components
