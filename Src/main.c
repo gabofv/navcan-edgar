@@ -8,29 +8,23 @@
 
 #include <stdio.h>
 
-#include "led.h"
-#include "rotary.h"
+#include "uart.h"
+#include "timer.h"
 #include "systick.h"
 
 
-int main(void) {
-	uint8_t btn;
+uint16_t sevensd = 0;
 
-	led_init();
-	rsw_init();
+
+int main(void) {
+
+	uart_init();
+	tim2_init();
 
 	while(1) {
 
-		btn = rsw_rd();
-
-		if (btn)  {
-			led_on();
-		}
-		else {
-			led_off();
-		}
-
-		systick_ms_delay(10);
+		sevensd = tim2_rd();
+		printf("Value is %u\r\n", (unsigned) sevensd);
 	}
 
 	return 0;
