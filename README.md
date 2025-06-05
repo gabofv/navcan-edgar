@@ -3,7 +3,7 @@ NavCan, a km countdown device with a beeper that can be connected to any car tha
 
 ## Notes
 
-- Code restructuring will be the final stage of the project. Given the simplicity of the project, I am focusing more on implementation and functionality rather than application scalability (object-oriented design).
+-
 
 ## Table of Contents
 
