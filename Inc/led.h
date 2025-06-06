@@ -22,8 +22,18 @@
 #define BSRR3_R		(1U<<(3+16))
 
 
-void led_init(void);
-void led_on(void);
-void led_off(void);
+typedef enum {
+	OFF,
+	ON
+} LedState_Type;
+
+typedef struct {
+	LedState_Type state;
+} Led_Type;
+
+
+void Led_Init(Led_Type* const inst, LedState_Type _state);
+void Led_setState(Led_Type* const inst, LedState_Type _state);
+void Led_trigger(Led_Type* const inst);
 
 #endif /* LED_C_ */
